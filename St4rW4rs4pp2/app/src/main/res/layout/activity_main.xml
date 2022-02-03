@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.milkndcoffee.st4rw4rs4pp.Controller.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="To create your St4r W4rs name, enter your information below."
+        android:textColor="@color/my_black_lighter"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        />
+
+    <!-- First Name Input -->
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        android:labelFor="@+id/text_first_name"
+        android:textSize="18sp" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This will create your (St4r W4rs) first name."
+        android:textColor="@color/my_gray"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:labelFor="@+id/text_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        android:hint="First Name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <EditText
+            android:id="@+id/text_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Last Name Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:labelFor="@+id/text_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:boxBackgroundColor="@color/white"
+        android:hint="Last Name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <EditText
+            android:id="@+id/text_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combined, this will create your (St4r W4rs) last name."
+        android:textColor="@color/my_gray"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        />
+
+    <!-- Mother Maiden Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:labelFor="@+id/text_maiden_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        android:hint="Mother's Maiden Name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <EditText
+            android:id="@+id/text_maiden_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- City Born Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:labelFor="@+id/text_city_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:boxBackgroundColor="@color/white"
+        android:hint="City Born"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <EditText
+            android:id="@+id/text_city_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- [Create] Button -->
+    <Button
+        android:id="@+id/create_button"
+        android:layout_width="200dp"
+        android:layout_gravity="right"
+        android:layout_height="54dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/my_blue"
+        android:text="Create" />
+
+    <!-- TextField Of St4r W4rs Name -->
+    <TextView
+        android:id="@+id/text_view_before_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="16dp"
+        android:text="Your St4r W4rs Name is:"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/text_view_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/my_blue"
+        android:fontFamily="sans-serif-black"
+        android:textSize="28sp"
+        />
+</LinearLayout>

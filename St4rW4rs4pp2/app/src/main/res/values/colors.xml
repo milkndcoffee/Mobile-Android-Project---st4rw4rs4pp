@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="my_black">#2D2D2D</color>
+    <color name="my_black_lighter">#565656</color>
+    <color name="my_gray">#A4656565</color>
+    <color name="my_white">#F2F2F2</color>
+    <color name="my_white_lighter">#F6F6F6</color>
+    <color name="my_yellow">#FFCD1C</color>
+    <color name="my_pink">#AD1457</color>
+    <color name="my_pink_darker">#78002e</color>
+
+    <color name="my_blue">#0039cb</color>
+    <color name="my_blue_darker">#001399</color>
+
+    <!-- Crane Theming from https://material.io/design/material-studies/crane.html#color -->
+    <!-- Primary -->
+    <color name="crane_purple_800">#5D1049</color>
+    <color name="crane_purple_900">#4E0D3A</color>
+    <color name="crane_purple_700">#720D5D</color>
+
+    <!-- Secondary -->
+    <color name="crane_red_700">#E30425</color>
+
+</resources>
